@@ -7,7 +7,7 @@
 :root {
     --deep-dark: rgb(26, 26, 26);
     --light-dark: rgb(79, 82, 92);
-    --light-blue: rgb(0, 132, 255);
+    --light-purple: rgb(0, 132, 255);
     --dark-blue: rgb(2, 84, 161);
     --light: rgb(245, 245, 245);
 }
@@ -33,7 +33,7 @@ h1 {
 .todo {
     width: 800px;
     border-radius: 5px;
-    background: #fff;
+    background: white;
     box-shadow: 4px 4px 5px rgba(82, 82, 82, .4);
     text-align: center;
 }
@@ -71,7 +71,7 @@ h1 {
 }
 
 .btn-add:hover {
-    color: #fff;
+    color: white;
     background-color: var(--light-dark);
 }
 
@@ -108,11 +108,11 @@ h1 {
 }
 
 .tools button:hover {
-    background-color: #ddd;
+    background-color: rgb(252, 245, 245);
 }
 
 .complete {
-    color: var(--light-purple);
+    color: var(--light-blue);
 }
 
 .edit {
@@ -121,7 +121,7 @@ h1 {
 }
 
 .delete {
-    color: tomato;
+    color: rgb(241, 85, 28);
 }
 
 .completed {
@@ -187,7 +187,7 @@ h1 {
 }
 
 .popup-btn:hover {
-    color: #fff;
+    color: white;
     background-color: var(--light-blue);
 }
 
